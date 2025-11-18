@@ -27,10 +27,15 @@ Note: Exact numerical values are intentionally omitted from this documentation. 
 
 ## 📂 Project Structure
 Retail_Sales/
+
 ├── notebooks/01_eda_and_model.ipynb   # Main notebook for exploratory data analysis
+
 ├── main.py                  # Python script (if applicable)
+
 ├── requirements.txt         # Dependency file
+
 ├── src/                     # Source code folder
+
 └── README.md                # Project documentation
 
 Note: Folders like data/, dashboards/, and docs/ were part of the initial template and are not included in this version.
