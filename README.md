@@ -27,11 +27,17 @@ This project analyzes retail sales data to uncover meaningful insights about rev
 ## 📂 Project Structure
 Retail_Sales/
 │
+
 ├── data/ # Sample or cleaned datasets (no large raw data)
+
 ├── notebooks/ # Jupyter notebooks for EDA and data cleaning
+
 ├── scripts/ # Python scripts for ETL or reusable functions
+
 ├── dashboards/ # Power BI report (.pbix) + screenshots
+
 ├── docs/ # Documentation + images
+
 └── README.md # Project documentation
 
 ---
