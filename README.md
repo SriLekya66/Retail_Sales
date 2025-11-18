@@ -31,13 +31,18 @@ This project analyzes retail sales data to uncover meaningful insights related t
 ## 📂 Project Structure
 
 Retail_Sales/
+
 ├── 01_eda_and_model.ipynb # Main notebook for EDA & modeling
+
 ├── main.py # Python script (if applicable)
+
 ├── requirements.txt # Dependency file
+
 ├── src/ # Source code folder
+
 └── README.md # Project documentation
 
-*(Folders like `data/`, `dashboards/`, and `docs/` were part of the template structure and are not present in this version.)*
+*(Folders like `data/`, `dashboards/`, and `docs/` were part of template structure and are not present in this version.)*
 
 ---
 
