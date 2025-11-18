@@ -27,15 +27,10 @@ Note: Exact numerical values are intentionally omitted from this documentation. 
 
 ## 📂 Project Structure
 Retail_Sales/
-
-├── 01_eda_and_model.ipynb   # Main notebook for exploratory data analysis
-
+├── notebooks/01_eda_and_model.ipynb   # Main notebook for exploratory data analysis
 ├── main.py                  # Python script (if applicable)
-
 ├── requirements.txt         # Dependency file
-
 ├── src/                     # Source code folder
-
 └── README.md                # Project documentation
 
 Note: Folders like data/, dashboards/, and docs/ were part of the initial template and are not included in this version.
@@ -58,11 +53,37 @@ Note: Folders like data/, dashboards/, and docs/ were part of the initial templa
 - Region-Wise Sales Comparison – Evaluates market contribution across locations
 - Profitability Assessment – Includes revenue-cost evaluation and profit ratio analysis
 
-All analysis is implemented and demonstrated in:
-📄 01_eda_and_model.ipynb
 
 ---
 
 ## 💡 Business Insights & Recommendations
 - Sales demonstrated seasonal variability with certain periods showing higher demand.
-- Some product categories consistently outperformed others in terms of overall contribution and profitabil
+- Some product categories consistently outperformed others in terms of overall contribution and profitability.
+- Regional performance varied, indicating potential opportunity for market-driven strategies.
+- Products with a strong profit-to-cost alignment show scalability potential.
+- Slow-moving products could benefit from strategies such as bundling, inventory optimization, or discount-based promotion.
+
+(All insights are presented qualitatively. Numerical figures and supporting graphs can be discussed during the live demonstration if required.)
+
+---
+
+## 📘 Conclusion
+This project successfully demonstrates an end-to-end analytics workflow covering:
+✔ Data cleaning  
+✔ Feature engineering  
+✔ Exploratory analysis  
+✔ KPI development  
+✔ Insight extraction  
+✔ Business recommendation formulation  
+
+It is well-suited for showcasing in interviews for:
+🔹 Data Analyst  
+🔹 Business Analyst  
+🔹 Reporting Analyst  
+🔹 BI Analyst roles
+
+---
+
+## 👩‍💻 Author  
+**Sri Lekya Balloli**  
+Data Analyst | Reporting & Visualization Specialist
