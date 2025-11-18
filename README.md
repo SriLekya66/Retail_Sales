@@ -2,167 +2,153 @@
 Data Cleaning • Exploratory Data Analysis • KPI Reporting • Power BI Dashboard
 
 ## 📌 Project Overview  
-This project analyzes **retail sales performance** to identify revenue trends, top-performing product categories, customer purchasing patterns, and key business drivers.  
+This project analyzes **retail sales performance** to identify revenue trends, top‑performing product categories, customer purchasing patterns, and key business drivers.  
 The goal is to help retail stakeholders improve **inventory planning, pricing decisions, marketing strategy, and forecasting accuracy**.
-
-The project demonstrates real-world data analytics steps from **data ingestion → cleaning → EDA → visualization → insights → business recommendations**.
 
 ---
 
 ## 📂 Repository Structure  
 ```
 Retail_Sales/
-│
-├── data/                 # Sample or cleaned datasets (no large raw data)
+├── data/                 # Sample or cleaned datasets
 ├── notebooks/            # Jupyter notebooks for EDA and data cleaning
-├── scripts/              # Python scripts for ETL or reusable functions
-├── dashboards/           # Power BI report (.pbix) + screenshots
-├── docs/                 # Documentation + images
-└── README.md             # Project documentation
+├── scripts/              # Python scripts for ETL / data processing
+├── dashboards/           # Power BI files or screenshot exports
+├── docs/                 # Documentation, screenshots
+├── README.md             # Project documentation
+├── requirements.txt      # Python dependencies
+└── LICENSE               # Project license
 ```
 
 ---
 
 ## 🧠 Business Problem  
-Retailers need clear insights into **what drives sales**, **who buys**, and **when demand peaks**.  
-The company wants to answer:
+Retailers need actionable insights into:
 
 1. Which products and categories generate the highest revenue?  
-2. What seasonal or monthly trends affect sales volume?  
-3. Which customer segments spend the most?  
-4. How can inventory teams reduce stockouts and overstock?  
-5. Which channels perform best?  
+2. What are the seasonal or monthly trends in demand?  
+3. Which customer segments contribute the most to sales?  
+4. How can inventory teams minimize stockouts and overstock?  
+5. Which sales channels (online, in-store) are performing best?
 
-This analysis provides **actionable recommendations** to improve sales, optimize inventory, and target high-value customers.
+This analysis is aligned to help business teams make data‑driven decisions and optimize operations.
 
 ---
 
 ## 📊 Dataset Description  
-- **Sales transactions** (date, product, price, quantity)  
-- **Product details** (category, sub-category, cost, listing price)  
-- **Customer information** (customer ID, region, segment)  
-- **Store attributes** (location, channel)  
+- **Sales transactions** — date, product ID, quantity, price  
+- **Product information** — category, sub-category, cost, price  
+- **Customer details** — customer ID, region, segment  
+- **Store/channel attributes** — store location, channel type (online / physical)  
 
-> ⚠️ *Note:* Large or proprietary datasets are not uploaded.  
-Small **sample datasets** are included for reproducibility.
+> ⚠️ *Note:* Full raw dataset is not included due to size / licensing. A small sample is provided to reproduce key analyses.
 
 ---
 
 ## 🔧 Tools & Technologies  
 - **Python**: pandas, numpy, matplotlib, seaborn  
-- **SQL**: PostgreSQL / MySQL / SQL Server  
-- **Power BI**: Interactive dashboards  
-- **Jupyter Notebook**: Exploratory analysis  
-- **Excel**: Additional analysis  
+- **SQL**: (e.g., PostgreSQL or MySQL) for data queries  
+- **Jupyter Notebook**: For exploration and analysis  
+- **Power BI**: For visual dashboards  
+- **Excel**: Supplemental exploratory or summary work  
 
 ---
 
 ## 🧹 Data Cleaning Steps  
-Performed in Python + SQL:
-- Handling missing values  
-- Removing duplicates  
-- Converting data types (date, category, numeric)  
-- Creating calculated columns (profit, margin, category share)  
-- Outlier detection and treatment  
-- Merging multiple tables using SQL joins  
+Performed using Python and SQL:  
+- Impute or drop missing values  
+- Remove duplicate records  
+- Convert data types (dates, categorical)  
+- Create derived metrics (profit, margin, YoY growth, etc.)  
+- Identify and handle outliers  
+- Merge tables using SQL joins  
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+## 🔍 Exploratory Data Analysis (EDA)  
+**1. Sales Trends**  
+- Monthly and yearly revenue trends  
+- Seasonal peaks (promotions, holidays)  
 
-### **1. Sales Trends**
-- Monthly and yearly revenue patterns  
-- Seasonality spikes  
-- Holiday and promotion impacts  
+**2. Product Performance**  
+- Revenue by category  
+- Profit margin analysis  
+- Top SKUs by sales & profitability  
 
-### **2. Product Performance**
-- Best-selling categories  
-- Profitability analysis  
-- Category contribution to total revenue  
+**3. Customer Insights**  
+- Customer segmentation (by region, loyalty, spending)  
+- Purchase frequency, average order value  
 
-### **3. Customer Insights**
-- Segmentation by region and customer type  
-- Purchase frequency  
-- Average order value and lifetime value estimates  
+**4. Channel / Store Analysis**  
+- Online vs in-store performance  
+- Regional comparisons  
 
-### **4. Store & Channel Performance**
-- Online vs in-store comparison  
-- Regional revenue breakdown  
-- Channel efficiency  
-
-Visualizations include:  
-- Time-series charts  
-- Heatmaps  
-- Bar & pie charts  
-- Profit distribution  
+Visualization types: time-series charts, heatmaps, bar/pie charts, profit distributions
 
 ---
 
 ## 📈 Power BI Dashboard  
-The dashboard provides interactive views including:
+Includes:  
+- KPI Overview (Revenue, Orders, Profit)  
+- Category & Product Performance  
+- Customer Segment Insights  
+- Region / Store-level Performance  
+- Monthly Sales Trends
 
-- **Sales Overview (KPIs, revenue, profit, orders)**  
-- **Category & Product Performance**  
-- **Regional & Store Analysis**  
-- **Customer Segmentation**  
-- **Monthly Sales Trends**
-
-Screenshots are included in:  
-`docs/screenshots/`
-
-Power BI file located at:  
-`dashboards/`
+**Screenshots** (if available) are stored in: `docs/screenshots/`  
+**Power BI file** (if included) is in: `dashboards/`
 
 ---
 
 ## 🚀 How to Run the Project  
 
-### 1. **Clone the repository**
+### 1. Clone the repository  
 ```bash
-git clone https://github.com/SriLekya66/Retail_Sales.git
+git clone https://github.com/SriLekya66/Retail_Sales.git  
 cd Retail_Sales
 ```
 
-### 2. **Create a virtual environment**
+### 2. Create a Python virtual environment  
 ```bash
-python -m venv venv
-source venv/bin/activate   # macOS / Linux
+python -m venv venv  
+source venv/bin/activate   # Mac / Linux  
 venv\Scripts\activate      # Windows
 ```
 
-### 3. **Install dependencies**
+### 3. Install dependencies  
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. **Run analysis**
-- Start Jupyter Notebook:
+### 4. Run the analysis  
+- Start Jupyter Notebook:  
 ```bash
 jupyter notebook
-```
-- Open notebooks in the `notebooks/` folder  
-- Review ETL/analysis scripts in `scripts/`  
-- Open the Power BI file in `dashboards/`  
+```  
+- Open and run the notebooks under `notebooks/`  
+- Use Python scripts in `scripts/` as needed  
+- Open Power BI file in `dashboards/` to view or export dashboards  
 
 ---
 
 ## 💡 Key Insights & Findings  
-- **Top-selling categories** contributed X% of total revenue  
-- **Region B** achieved the highest sales growth  
-- **Online sales** outperformed in-store by X%  
-- **Seasonal patterns** show peak demand in ___ months  
-- **High-margin items** represent a small portion of the catalog → expansion opportunity  
-- **Customer segment C** shows highest lifetime value  
+*(Replace these with your actual results)*  
+- Top-selling categories contributed X% of total revenue  
+- Region B saw the highest YoY growth of Y%  
+- Online sales outperformed in-store by Z%  
+- Seasonal peaks identified in Month1, Month2  
+- High-margin SKUs represent a small portion of sales but contribute W% of profit  
+- Customer segment C shows highest lifetime value  
 
-
+---
 
 ## 📌 Business Recommendations  
-- Increase stock for high-demand SKUs to avoid stockouts  
-- Promote slow-moving categories with discounts  
-- Focus marketing on top customer segments  
-- Expand high-margin items to improve profit  
+- Prioritize inventory for high-demand SKUs to reduce stockouts  
+- Run promotions during off-peak months  
+- Focus marketing on high-value customer segments  
+- Expand high-margin product lines  
 - Strengthen online channel strategy  
-- Improve regional forecasting for better distribution  
+- Use region-based forecasting to optimize inventory and distribution  
 
 ---
 
@@ -173,8 +159,6 @@ This project is licensed under the **MIT License**.
 
 ## 👩‍💻 Author  
 **Sri Lekya Balloli**  
-Data Analyst | BI Analyst | Power BI | SQL | Python  
+Data Analyst | BI Analyst | Python | Power BI  
 📧 Email: srilekya1108@gmail.com  
-
-
----
+🔗 LinkedIn: *Add your LinkedIn link here*
