@@ -1,111 +1,63 @@
-# Retail Sales Analysis – End-to-End Data Analytics Project
-
 ## 📌 Project Overview
 This project analyzes retail sales data to uncover meaningful insights related to revenue trends, product performance, customer behavior, and business growth opportunities. It demonstrates expertise in data cleaning, transformation, visualization, KPI development, and actionable insight generation.
+
+Note: Exact numerical values are intentionally omitted from this documentation. The focus is on trend interpretation and insight generation. Detailed results are available in the notebook and can be discussed during a live demonstration if required.
 
 ---
 
 ## 📊 Key Objectives
-- Clean and preprocess retail sales data  
-- Analyze performance by product, category, and region  
-- Engineer KPIs such as revenue, profit, cost, and quantity  
-- Generate monthly trend and comparative analyses  
-- Identify top-performing products and improvement areas  
-- Provide clear business recommendations based on findings  
+- Clean and preprocess retail sales data
+- Analyze performance by product, category, and region
+- Engineer KPIs such as revenue, profit, cost, and quantity
+- Generate monthly trend and comparative analyses
+- Identify top-performing products and improvement areas
+- Provide clear business recommendations based on findings
 
 ---
 
 ## 🛠 Tools & Technologies Used
-- **Python** – Pandas, NumPy, Matplotlib, Seaborn  
-- **Jupyter Notebook** for data exploration  
-- **Excel** for initial data validation  
-- **GitHub** for version control  
-- *(Dashboard development via Power BI/tableau is not included in this version but can be extended)*  
+- Python – Pandas, NumPy, Matplotlib, Seaborn
+- Jupyter Notebook – Data exploration and visualization
+- Excel – Initial data validation
+- GitHub – Version control
+
+(Dashboard development via Power BI/Tableau is not included in this version but can be extended if required.)
 
 ---
 
 ## 📂 Project Structure
-
-
-
-## 📂 Project Structure
-
 Retail_Sales/
+├── 01_eda_and_model.ipynb   # Main notebook for exploratory data analysis
+├── main.py                  # Python script (if applicable)
+├── requirements.txt         # Dependency file
+├── src/                     # Source code folder
+└── README.md                # Project documentation
 
-├── 01_eda_and_model.ipynb     # Main notebook for EDA & modeling
-
-├── main.py                    # Python script (if applicable)
-
-├── requirements.txt           # Dependency file
-
-├── src/                       # Source code folder
-
-└── README.md                  # Project documentation
-
-
-*(Folders like `data/`, `dashboards/`, and `docs/` were part of template structure and are not present in this version.)*
+Note: Folders like data/, dashboards/, and docs/ were part of the initial template and are not included in this version.
 
 ---
 
 ## 🔎 Data Cleaning & Preprocessing
-1. Handling missing values  
-2. Removing duplicates  
-3. Converting date formats (to datetime)  
-4. Standardizing categorical fields  
-5. Creating additional fields (Month, Year, Category codes, etc.)  
-6. Calculating key metrics like Revenue and Profit  
+- Handling missing values
+- Removing duplicates
+- Converting fields (e.g., dates to datetime)
+- Standardizing categorical variables
+- Creating additional fields (Month, Year, category codes, etc.)
+- Calculating KPIs such as Revenue and Profit
 
 ---
 
 ## 📈 Key Analyses Performed
+- Monthly Sales Trend – Identifies recurring patterns and seasonality
+- Product & Category Performance – Highlights high- and low-performing areas
+- Region-Wise Sales Comparison – Evaluates market contribution across locations
+- Profitability Assessment – Includes revenue-cost evaluation and profit ratio analysis
 
-### ✔️ Monthly Sales Trend  
-Identifies seasonal and demand patterns.
-
-### ✔️ Product & Category Performance  
-Highlights high- and low-performing product lines.
-
-### ✔️ Region-Wise Sales Contribution  
-Compares revenue across different geographical markets.
-
-### ✔️ Profitability Assessment  
-- Revenue vs cost  
-- Gross profit  
-- Net profit  
-- Profit-to-cost ratio  
-
-All analysis is fully implemented and documented inside  
-**`01_eda_and_model.ipynb`**
+All analysis is implemented and demonstrated in:
+📄 01_eda_and_model.ipynb
 
 ---
 
 ## 💡 Business Insights & Recommendations
-Based on the exploratory data analysis:
-
-- **Peak sales were observed during specific high-demand periods.**
-- **Top-performing products were identified based on both revenue and sales volume.**
-- **Certain regions underperformed and may benefit from promotions or strategic marketing.**
-- **Products with higher profit-to-cost ratio show scale potential.**
-- **Slower-moving products may require stock optimization or bundling strategies.**
-
-Specific numerical values were intentionally omitted. However, all insights are supported by the visual trends and analysis within the notebook and can be discussed during a live demonstration if required.
-
----
-
-## 📘 Conclusion
-This project demonstrates an end-to-end analytics workflow:
-✔ Data cleaning  
-✔ Feature engineering  
-✔ Exploratory analysis  
-✔ KPI creation  
-✔ Insight generation  
-✔ Business recommendations  
-
-It is suitable for showcasing in interviews for:
-**Data Analyst | Business Analyst | Reporting Analyst | BI Analyst** roles.
-
----
-
-## 👩‍💻 Author
-**Sri Lekya Balloli**  
-*Data Analyst | Reporting & Visualization Specialist*  
+- Sales demonstrated seasonal variability with certain periods showing higher demand.
+- Some product categories consistently outperformed others in terms of overall contribution and profitabil
