@@ -88,7 +88,7 @@ Based on the exploratory data analysis:
 - **Products with higher profit-to-cost ratio show scale potential.**
 - **Slower-moving products may require stock optimization or bundling strategies.**
 
-*(Specific values depend on dataset used and are elaborated in the notebook.)*
+Specific numerical values were intentionally omitted. However, all insights are supported by the visual trends and analysis within the notebook and can be discussed during a live demonstration if required.
 
 ---
 
